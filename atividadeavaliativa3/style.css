@@ -1,0 +1,56 @@
+body{
+    background-image: url(imagens/cinema.png);
+    background-size: 50px;
+    background-repeat: repeat;
+}
+
+.container {
+    display: grid;
+    grid-template-columns:
+    repeat(12, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+header {
+    grid-column: span 12;
+    background: #4c77af;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+div{
+    border-radius: 20px;
+    background-color: #fae7e7;
+}
+
+h1 {
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.imagem1{
+    grid-column-start: 0;
+    grid-column: span 5;
+}
+.texto1 {
+    grid-column-start: 6;
+    grid-column: span 7;
+    padding: 20px;
+}
+
+.imagem2{
+    grid-column-start: 7;
+    grid-column: span 1;
+}
+.texto2 {
+    grid-column-start: 0;
+    grid-column: span 7;
+    padding: 20px;
+}
